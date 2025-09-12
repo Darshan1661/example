@@ -1,0 +1,19 @@
+git  status -- see the status
+git add . (file name) -- add any file 
+git commit -m "(message)" -- add commit on update
+git log -- see history of every update 
+git reset (commit hex code) -- entered hex code above history is restored 
+git stash -- like a stake memory we can push latest update 
+git stash pop -- use pop latest update
+git stash clear -- clear stake 
+
+git remote add origin https://url -- add url to table 
+git remote -v -- see repo of fetch/push 
+git remote -v origin 'url' -- login your repo
+git push origin master -- push latest update and commit on master branch 
+
+
+fork option use to copy another repo in your repo (clone)
+git remote -v upstream -- means it add in repo table upstream mean form where you clone
+git branch "name" -- add branch 
+git checkout "branch name" -- change branch to usage branch 
