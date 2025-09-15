@@ -3,6 +3,7 @@ git add . (file name) -- add any file
 git commit -m "(message)" -- add commit on update
 git log -- see history of every update 
 git reset (commit hex code) -- entered hex code above history is restored 
+git reset --hard (commit hex code) -- entered hex code above history is restored with hard
 git stash -- like a stake memory we can push latest update 
 git stash pop -- use pop latest update
 git stash clear -- clear stake 
@@ -22,3 +23,6 @@ git fetch --all --prune -- fetch all commit in your branch prune mean delete one
 git reset --hard upstream/main -- restore all commit 
 git pull upstream main -- pull from upstream what you update fetch it in local 
 git rebase -i (commit hex code) -- combine all commit squash s mean merge and pick p mean which one at you merge
+
+merge conflicts
+when two people want to change same line you can manually take and pull it on main 
