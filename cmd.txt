@@ -11,9 +11,14 @@ git remote add origin https://url -- add url to table
 git remote -v -- see repo of fetch/push 
 git remote -v origin 'url' -- login your repo
 git push origin master -- push latest update and commit on master branch 
+git push origin master -f -- push latest update and commit on master branch force fully 
 
 
 fork option use to copy another repo in your repo (clone)
 git remote -v upstream -- means it add in repo table upstream mean form where you clone
 git branch "name" -- add branch 
 git checkout "branch name" -- change branch to usage branch 
+git fetch --all --prune -- fetch all commit in your branch prune mean delete one 
+git reset --hard upstream/main -- restore all commit 
+git pull upstream main -- pull from upstream what you update fetch it in local 
+git rebase -i (commit hex code) -- combine all commit squash s mean merge and pick p mean which one at you merge
