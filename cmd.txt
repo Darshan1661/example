@@ -3,6 +3,7 @@ git add . (file name) -- add any file
 git commit -m "(message)" -- add commit on update
 git log -- see history of every update 
 git reset (commit hex code) -- entered hex code above history is restored 
+git reset --hard (commit hex code) -- entered hex code above history is restored with hard
 git stash -- like a stake memory we can push latest update 
 git stash pop -- use pop latest update
 git stash clear -- clear stake 
@@ -23,4 +24,23 @@ git reset --hard upstream/main -- restore all commit
 git pull upstream main -- pull from upstream what you update fetch it in local 
 git rebase -i (commit hex code) -- combine all commit squash s mean merge and pick p mean which one at you merge
 
+
+rebase 
+git rebase -i HEAD~2
+# edit the commit you want
+
+git add .
+git commit --amend --no-edit
+git rebase --continue
+
+# if conflict happens:
+# fix file manually
+git add .
+git rebase --continue
+
+git push origin main --force
+
+
 this for example
+merge conflicts
+when two people want to change same line you can manually take and pull it on main
