@@ -8,9 +8,9 @@ git stash -- like a stake memory we can push latest update
 git stash pop -- use pop latest update
 git stash clear -- clear stake 
 
-git remote add origin https://<TOKEN>@github.com/Darshan1661/C.git  -- add url to table 
+git remote add <name> https://<TOKEN>@github.com/Darshan1661/C.git  -- add url to table define a new remote (first time setup).
+git remote set-url <name> <new-url> -- update/change the URL of an existing remote.
 git remote -v -- see repo of fetch/push 
-git remote -v origin 'url' -- login your repo
 git push origin master -- push latest update and commit on master branch 
 git push origin master -f -- push latest update and commit on master branch force fully 
 
