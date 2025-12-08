@@ -44,3 +44,8 @@ git push origin main --force
 this for example
 merge conflicts
 when two people want to change same line you can manually take and pull it on main
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 2ee75c4 (hello)
